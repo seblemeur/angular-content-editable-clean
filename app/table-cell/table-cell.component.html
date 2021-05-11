@@ -1,0 +1,11 @@
+<div class="cell">
+  <div *ngIf="!enabled" (click)="updateEditable()" class="cellNotEditable">
+    {{text}}
+  </div>
+  <app-table-cell-editable
+    *ngIf="enabled"
+    class="cellEditable"
+    [text]="text"
+    (updateText)="changeText($event)"
+  ></app-table-cell-editable>
+</div>

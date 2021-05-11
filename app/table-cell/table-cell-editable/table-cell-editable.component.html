@@ -1,0 +1,8 @@
+<div
+  #editableContentDiv
+  contenteditable="true"
+  [(ngModel)]="text"
+  [disabled]="!enabled"
+  #ctrl="ngModel"
+  (someEvent)="textUpdated($event)"
+></div>

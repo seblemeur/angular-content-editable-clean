@@ -1,0 +1,18 @@
+[contenteditable] {
+  width: 300px;
+  background-color: #fff;
+  height: 20px;
+  padding: 6px;
+  border: none;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+[contenteditable]:focus {
+  border: none;
+  outline: none;
+  box-shadow: rgb(15 15 15 / 5%) 0px 0px 0px 1px,
+    rgb(15 15 15 / 10%) 0px 3px 6px, rgb(15 15 15 / 20%) 0px 9px 24px;
+  border-radius: 4px;
+}
