@@ -1,3 +1,1 @@
-# content-editable-clean
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/content-editable-clean)
+Angular component for editable content like notion
